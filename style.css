@@ -1,0 +1,59 @@
+/* a[href] {
+    color : pink;
+}
+a[href="http://example.com"] {
+    color : blue;
+}
+a[href*="example"] {
+    color : red;
+}
+a[href$="org"] {
+    color : yellow;
+    background-color : black;
+}
+li[class~=shahin] a {
+    color : green;
+} */
+/* li > span {
+    background-color :brown;
+}
+li.shahin + span {
+    background-color : yellow;
+}
+li.shahin ~ span {
+    background-color :orangered;
+} */
+li:hover {
+    background-color :darkcyan;
+}
+li:hover a {
+    color : white;
+}
+/* ul li:first-child a {
+    color : red;
+}
+ul li:first-child a {
+   background-color : black;;
+} */
+li::before {
+    content : "listitem";
+    color : blue;
+}
+li::after {
+    content : "after";
+    color : red;
+}
+p::first-line {
+    font-weight : bold;
+}
+.hello:placeholder-shown {
+    border-color : teal;
+    color : blue;
+    font-style : italic;
+}
+.show {
+    background-color : red;
+    padding : 10px;
+    border : 3px solid black;
+    margin : 0 0 30px;
+}
